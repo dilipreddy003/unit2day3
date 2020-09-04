@@ -1,0 +1,101 @@
+<!DOCTYPE>
+<html>
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<title>Home Page</title>
+<style>
+ol,ul {
+  list-style: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background:#333;
+}
+
+.lnk{
+float:right;
+margin:15px;
+padding:0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+color:white;
+text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+li a:hover{
+background-color: #111;
+}
+.table1, .th1, .td1 {
+  border: 1px solid black;
+  padding:10px;
+  border-collapse:collapse;
+  text-align:center;
+  margin:10px;
+}
+
+</style>
+</head>
+<body>
+<div>
+<a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" class="img" width="80" height="80"></img></a>
+<a href="https://serc.iiit.ac.in/rdip"><u><span class="lnk">RDIP</span></u></a>
+</div>
+</br>
+
+<ul>
+  <li><a href="homepage.html">Home</a></li>
+  <li><a href="registration.html">Registration Form</a></li>
+ 
+</ul>
+
+<br>
+<b>My Details :</b>
+<br><br><br>
+
+<div>
+<table class="table1">
+<tr class="tr1">
+<th class="th1"><center>Name </th>
+<th class="th1"><center>Name of Student</th>
+</tr>
+
+<tr class="tr1">
+<th class="th1"><center>College </th>
+<th class="th1"><center>Name of College</th>
+</tr>
+
+<tr class="tr1">
+<th class="th1"><center>Reason </th>
+<th class="th1"><center>Reason to join RDIP</th>
+</tr>
+</table>
+
+<img src="profile.png" class=margin:bottom class="img1" alt="profile" width="110" height="110" align="right"></img>
+</div>
+<button>Hide them</button>
+<p> RDIP is Remote Gigital Intership Program to help students learn/improve HTML,CSS,Javascript.
+<br>
+<br>
+<p>Describe something about what you learn in the first week of internship.
+  <script>
+$( "button" ).click(function() {
+  $( "p" ).hide( "slow" );
+});
+</script>
+  <br><br><br>
+</body>
+</html>
